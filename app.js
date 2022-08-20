@@ -43,7 +43,7 @@ function displaySurvices(service){
                 <p class="card-text"><small class="text-muted">fare per kilo:${service.farePerKilo}</small></p><small class="text-muted">capacity:${service.capacity}</small></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" onclick='handleBooking(${stringified})' data-bs-target="#exampleModal">
-                Launch demo modal
+                view
                 </button>
             </div>
         </div>
